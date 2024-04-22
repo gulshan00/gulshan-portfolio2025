@@ -9,10 +9,18 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title style={{ color: "#cd5ff8",}}>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        {props.techStack && (
+          <Card.Text className="tech-stack">
+            <span style={{ color: "#cd5ff8", fontWeight: "bold", marginRight: "5px" }}>Tech Stack:</span>
+            {props.techStack.map((tech, index) => (
+              <span key={index} style={{ marginRight: "5px" }}>{tech}</span>
+            ))}
+          </Card.Text>
+        )}
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
@@ -20,8 +28,7 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+      
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -30,7 +37,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {"Browse"}
           </Button>
         )}
       </Card.Body>

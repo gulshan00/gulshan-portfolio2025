@@ -205,9 +205,13 @@ button:focus {
   width: 100%;
 }
 
-/* --------- */
-/* Home section */
-/* --------- */
+/* Add this CSS to your stylesheet */
+
+.nav-link.active {
+  color: #cd5ff8 !important; 
+  /* border-bottom: 2px solid #cd5ff8 !important;  */
+}
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -257,7 +261,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -551,7 +555,7 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  /* font-size: 4.5em !important; */
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -740,4 +744,52 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+/* contact  */
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  /* background-image: var(--section-background-color) !important; */
+  color: white !important;
+}
+
+
+
+/* Footer animation */
+/* Add this CSS to your stylesheet */
+
+/* @keyframes heart-beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart-animation {
+  animation: heart-beat 0.8s infinite alternate;
+} */
+/* Add this CSS to your stylesheet */
+
+/* Add this CSS to your stylesheet */
+
+@keyframes rotateHeart {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.heart-animation {
+  display: inline-block; /* Ensures the animation works */
+  animation: rotateHeart 2s linear infinite; /* Adjust duration and timing function as needed */
 }

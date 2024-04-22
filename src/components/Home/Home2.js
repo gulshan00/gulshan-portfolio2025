@@ -4,16 +4,17 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineWhatsApp,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        {/* <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -57,7 +58,32 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-        </Row>
+        </Row> */}
+
+        <Row>
+  <Col md={8} className="home-about-description">
+    <h1 style={{ fontSize: "2.6em" }}>
+      LET ME <span className="purple"> INTRODUCE </span> MYSELF
+    </h1>
+    <p className="home-about-body">
+      Exploring the world of programming, I've discovered my passion and dedication for crafting exceptional digital experiences. 🚀
+      <br />
+      <br />Proficient in <i><b className="purple">Javascript</b></i> and <i><b className="purple">React.js</b></i>, I specialize in frontend development, creating captivating user interfaces and dynamic web applications.
+      <br />
+      <br />With a keen eye for detail and a commitment to excellence, I strive to deliver pixel-perfect designs and seamless user interactions.
+      <br />
+      <br />Driven by curiosity and a hunger for knowledge, I continuously seek to expand my skillset and stay up-to-date with the latest industry trends.
+      <br />
+      <br />Let's collaborate and turn your ideas into reality!
+    </p>
+  </Col>
+  <Col md={4} className="myAvtar">
+    <Tilt>
+      <img src={myImg} className="img-fluid" alt="avatar" />
+    </Tilt>
+  </Col>
+</Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -66,44 +92,44 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
+                <NavLink
+                  to="https://github.com/yourusername"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
+                </NavLink>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
+                <NavLink
+                  to="https://wa.me/7903074152"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <AiOutlineTwitter />
-                </a>
+                  <AiOutlineWhatsApp />
+                </NavLink>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                <NavLink
+                  to="https://www.linkedin.com/in/gulshan-kumar-64244220a/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
+                </NavLink>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
+                <NavLink
+                  to="https://www.instagram.com/gulshan.sandilya_/?igshid=ZDdkNTZiNTM%3D"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </a>
+                </NavLink>
               </li>
             </ul>
           </Col>

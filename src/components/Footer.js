@@ -4,63 +4,47 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineWhatsApp
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { NavLink } from "react-router-dom";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
+       
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Copyright © {year} Gulshan Kumar</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
+         <Col md="4" className="footer-copywright">
+        <h3>Made with <span className="heart-animation">❤️</span> by Gulshan Kumar</h3>
+      </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <NavLink to="https://github.com/gulshan-kumar1810" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
-              </a>
+              </NavLink>
             </li>
             <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
+              <NavLink to="https://wa.me/917903074152" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
+                <AiOutlineWhatsApp />
+              </NavLink>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <NavLink to="https://www.linkedin.com/in/gulshan-kumar-64244220a/" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
-              </a>
+              </NavLink>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <NavLink to="https://www.instagram.com/gulshan.sandilya_/?igshid=ZDdkNTZiNTM%3D" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillInstagram />
-              </a>
+              </NavLink>
             </li>
+
           </ul>
         </Col>
       </Row>

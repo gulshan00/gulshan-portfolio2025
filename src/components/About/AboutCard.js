@@ -8,33 +8,57 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Gulshan Kumar </span>
+            from <span className="purple">Bihar, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as an SDE-1 in a frontend developer role at
+            Pairbytes Company in Delhi.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I graduated with a B.E. in Computer Science Engineering from
+            Sambhram Institute of Technology (Bengalore) in 2023.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight
+                style={{ cursor: "pointer" }}
+                className="wave"
+                aria-labelledby="wave"
+              />{" "}
+              Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight
+                style={{ cursor: "pointer" }}
+                className="wave"
+                aria-labelledby="wave"
+              />{" "}
+              Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight
+                style={{ cursor: "pointer" }}
+                className="wave"
+                aria-labelledby="wave"
+              />{" "}
+              Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p
+            style={{ color: "#8A2BE2", fontStyle: "italic", fontSize: "1.2em" }}
+          >
+            "Innovate to create meaningful impact!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer
+            className="blockquote-footer"
+            style={{ color: "#8A2BE2", fontSize: "1em" }}
+          >
+            Gulshan Kumar
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>
