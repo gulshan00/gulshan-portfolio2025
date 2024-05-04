@@ -28,7 +28,7 @@ function AboutCard() {
                 className="wave"
                 aria-labelledby="wave"
               />{" "}
-              Playing Games
+              Playing With coding
             </li>
             <li className="about-activity">
               <ImPointRight
@@ -36,7 +36,7 @@ function AboutCard() {
                 className="wave"
                 aria-labelledby="wave"
               />{" "}
-              Writing Tech Blogs
+              Playing Games
             </li>
             <li className="about-activity">
               <ImPointRight
@@ -48,7 +48,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p
+          {/* <p
             style={{ color: "#8A2BE2", fontStyle: "italic", fontSize: "1.2em" }}
           >
             "Innovate to create meaningful impact!"
@@ -58,7 +58,7 @@ function AboutCard() {
             style={{ color: "#8A2BE2", fontSize: "1em" }}
           >
             Gulshan Kumar
-          </footer>
+          </footer> */}
         </blockquote>
       </Card.Body>
     </Card>
