@@ -8,6 +8,7 @@ import weather from "../../Assets/Projects/weather.png";
 import img from "../../Assets/Projects/image.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import restaurant from "../../Assets/Projects/restaurants.png";
+import green from "../../Assets/Projects/green.png";
 import Certificate from "./Certificate";
 function Projects() {
   const [activeTab, setActiveTab] = useState("Project");
@@ -43,6 +44,27 @@ function Projects() {
       
         {activeTab === "Project" && (
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={green}
+    isBlog={false}
+    title="Greenvibe-website"
+    description="Explore Greenvibe-website to find eco-friendly images, raising awareness and encouraging action for a sustainable future. Join us in the movement for a greener world!"
+    ghLink=""
+    demoLink="https://gulshan-greenvibe.vercel.app/"
+    techStack={[
+      "Html",
+      "Css",
+      "JavaScript",
+      "",
+      "",
+    ]}
+    titleColor="#cd5ff8"
+  />
+</Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img}
