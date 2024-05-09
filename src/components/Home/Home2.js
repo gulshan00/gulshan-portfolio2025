@@ -61,28 +61,28 @@ function Home2() {
         </Row> */}
 
         <Row>
-  <Col md={8} className="home-about-description">
-    <h1 style={{ fontSize: "2.6em" }}>
-      LET ME <span className="purple"> INTRODUCE </span> MYSELF
-    </h1>
-    <p className="home-about-body">
-      Exploring the world of programming, I've discovered my passion and dedication for crafting exceptional digital experiences. 🚀
-      <br />
-      <br />Proficient in <i><b className="purple">Javascript</b></i> and <i><b className="purple">React.js</b></i>, I specialize in frontend development, creating captivating user interfaces and dynamic web applications.
-      <br />
-      <br />With a keen eye for detail and a commitment to excellence, I strive to deliver pixel-perfect designs and seamless user interactions.
-      <br />
-      <br />Driven by curiosity and a hunger for knowledge, I continuously seek to expand my skillset and stay up-to-date with the latest industry trends.
-      <br />
-      <br />Let's collaborate and turn your ideas into reality!
-    </p>
-  </Col>
-  <Col md={4} className="myAvtar">
-    <Tilt>
-      <img src={myImg} className="img-fluid" alt="avatar" />
-    </Tilt>
-  </Col>
-</Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              Exploring the world of programming, I've discovered my passion and dedication for crafting exceptional digital experiences. 🚀
+              <br />
+              <br />Proficient in <i><b className="purple">Javascript</b></i> and <i><b className="purple">React.js</b></i>, I specialize in frontend development, creating captivating user interfaces and dynamic web applications.
+              <br />
+              <br />With a keen eye for detail and a commitment to excellence, I strive to deliver pixel-perfect designs and seamless user interactions.
+              <br />
+              <br />Driven by curiosity and a hunger for knowledge, I continuously seek to expand my skillset and stay up-to-date with the latest industry trends.
+              <br />
+              <br />Let's collaborate and turn your ideas into reality!
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
 
         <Row>
           <Col md={12} className="home-about-social">
