@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          {/* <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Gulshan Kumar </span>
             from <span className="purple">Bihar, India.</span>
             <br />
@@ -19,6 +19,24 @@ function AboutCard() {
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
+          </p> */}
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span class="purple">Gulshan Kumar</span> from{" "}
+            <span class="purple">Bihar, India.</span>
+            <br />
+            I have one year of professional experience in frontend development
+            at Pairbytes Company in Delhi.
+            <br />
+            I am currently seeking new opportunities in frontend development.
+            Additionally, I am expanding my skill set by learning backend
+            technologies, specifically Node.js, Express.js, and MongoDB.
+            <br />
+            <br />
+            I graduated with a B.E. in Computer Science Engineering from the
+            Sambhram Institute of Technology, Bangalore, in 2023.
+            <br />
+            <br />
+            Beyond coding, I have a passion for several other activities!
           </p>
 
           <ul>

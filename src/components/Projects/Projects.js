@@ -50,7 +50,7 @@ function Projects() {
         {activeTab === "Project" && (
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={busico}
                 isBlog={false}
@@ -62,7 +62,7 @@ function Projects() {
                 titleColor="#cd5ff8"
               />
 
-            </Col>
+            </Col> */}
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={green}

@@ -13,6 +13,10 @@ import git from "../../Assets/git.png";
 import python from "../../Assets/python.png";
 import github from "../../Assets/github.png";
 import postman from "../../Assets/postman.png";
+import nodes from "../../Assets/nodes.svg";
+import mongodb from "../../Assets/mongodb.svg";
+import express from "../../Assets/express.png";
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -69,6 +73,20 @@ function Techstack() {
         <img src={github} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
         <p style={{ width: "100%", textAlign: "center" }}>GITHUB</p>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={nodes} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
+        <p style={{ width: "100%", textAlign: "center" }}>Nodes</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={mongodb} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
+        <p style={{ width: "100%", textAlign: "center" }}> MongoDB</p>
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <img src={express} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
+        <p style={{ width: "100%", textAlign: "center" }}>Express</p>
+      </Col> */}
     </Row>
   );
 }
