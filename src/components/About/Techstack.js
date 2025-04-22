@@ -16,6 +16,7 @@ import postman from "../../Assets/postman.png";
 import nodes from "../../Assets/nodes.svg";
 import mongodb from "../../Assets/mongodb.svg";
 import express from "../../Assets/express.png";
+import next from "../../Assets/next.png";
 
 function Techstack() {
   return (
@@ -40,6 +41,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={react} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
         <p style={{ width: "100%", textAlign: "center" }}>REACT JS</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={next} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />
+        <p style={{ width: "100%", textAlign: "center" }}>NEXT JS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={tailwind} className="img-fluid" alt="avatar" style={{ width: "50%", height: "50%" }} />

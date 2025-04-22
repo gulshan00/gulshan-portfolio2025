@@ -6,78 +6,49 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          {/* <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Gulshan Kumar </span>
-            from <span className="purple">Bihar, India.</span>
-            <br />
-            I am currently employed as an SDE-1 in a frontend developer role at
-            Pairbytes Company in Delhi.
-            <br />
-            I graduated with a B.E. in Computer Science Engineering from
-            Sambhram Institute of Technology (Bengalore) in 2023.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p> */}
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span class="purple">Gulshan Kumar</span> from{" "}
-            <span class="purple">Bihar, India.</span>
-            <br />
-            I have one year of professional experience in frontend development
-            at Pairbytes Company in Delhi.
-            <br />
-            I am currently seeking new opportunities in frontend development.
-            Additionally, I am expanding my skill set by learning backend
-            technologies, specifically Node.js, Express.js, and MongoDB.
-            <br />
-            <br />
-            I graduated with a B.E. in Computer Science Engineering from the
-            Sambhram Institute of Technology, Bangalore, in 2023.
-            <br />
-            <br />
-            Beyond coding, I have a passion for several other activities!
-          </p>
+      <blockquote className="blockquote mb-0">
+  <p style={{ textAlign: "justify" }}>
+    Hello Everyone, I'm <span className="purple">Gulshan Kumar</span>.
+    <br />
+    I am a frontend developer with one year of professional experience at Pairbytes Company in Delhi, where I contributed to building responsive and user-friendly web applications.
+    <br />
+    Currently, I am exploring new opportunities in frontend development while also enhancing my skill set by learning backend technologies, including Node.js, Express.js, and MongoDB.
+    <br />
+    <br />
+    I hold a Bachelor's degree in Computer Science Engineering from Sambhram Institute of Technology, Bangalore, graduating in 2023.
+    <br />
+    <br />
+    Outside of work, I enjoy engaging in a variety of creative and recreational activities.
+  </p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight
-                style={{ cursor: "pointer" }}
-                className="wave"
-                aria-labelledby="wave"
-              />{" "}
-              Playing With coding
-            </li>
-            <li className="about-activity">
-              <ImPointRight
-                style={{ cursor: "pointer" }}
-                className="wave"
-                aria-labelledby="wave"
-              />{" "}
-              Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight
-                style={{ cursor: "pointer" }}
-                className="wave"
-                aria-labelledby="wave"
-              />{" "}
-              Travelling
-            </li>
-          </ul>
+  <ul>
+    <li className="about-activity">
+      <ImPointRight
+        style={{ cursor: "pointer" }}
+        className="wave"
+        aria-labelledby="wave"
+      />{" "}
+      Exploring coding challenges and side projects
+    </li>
+    <li className="about-activity">
+      <ImPointRight
+        style={{ cursor: "pointer" }}
+        className="wave"
+        aria-labelledby="wave"
+      />{" "}
+      Gaming
+    </li>
+    <li className="about-activity">
+      <ImPointRight
+        style={{ cursor: "pointer" }}
+        className="wave"
+        aria-labelledby="wave"
+      />{" "}
+      Traveling and discovering new places
+    </li>
+  </ul>
+</blockquote>
 
-          {/* <p
-            style={{ color: "#8A2BE2", fontStyle: "italic", fontSize: "1.2em" }}
-          >
-            "Innovate to create meaningful impact!"
-          </p>
-          <footer
-            className="blockquote-footer"
-            style={{ color: "#8A2BE2", fontSize: "1em" }}
-          >
-            Gulshan Kumar
-          </footer> */}
-        </blockquote>
       </Card.Body>
     </Card>
   );

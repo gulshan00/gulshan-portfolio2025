@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Education from "./Education"
+// import ExperienceCard from "./ExperienceCard";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -42,12 +43,7 @@ function About() {
       
         <Techstack />
 
-        {/* <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack /> */}
-
-        {/* <Github /> */}
+      {/* <ExperienceCard/> */}
       </Container>
     </Container>
   );
