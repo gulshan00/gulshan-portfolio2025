@@ -38,7 +38,7 @@ function About() {
         </Row>
         {/* <Education /> */}
         <h1 className="project-heading">
-          My <strong className="purple">Technical Skill</strong>
+          My <strong className="purple">Technical Skills</strong>
         </h1>
       
         <Techstack />
