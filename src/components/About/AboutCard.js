@@ -10,7 +10,7 @@ function AboutCard() {
   <p style={{ textAlign: "justify" }}>
     Hello Everyone, I'm <span className="purple">Gulshan Kumar</span>.
     <br />
-    I am a frontend developer with one year of professional experience at Pairbytes Company in Delhi, where I contributed to building responsive and user-friendly web applications.
+    I am a frontend developer with 1+ year of professional experience at Pairbytes Company in Delhi, where I contributed to building responsive and user-friendly web applications.
     <br />
     Currently, I am exploring new opportunities in frontend development while also enhancing my skill set by learning backend technologies, including Node.js, Express.js, and MongoDB.
     <br />
