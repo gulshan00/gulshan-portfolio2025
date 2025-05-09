@@ -1224,7 +1224,7 @@ function Contact() {
         </NavLink>
       </div>
     </Col>
-    <Col md={4} className="mb-4">
+    {/* <Col md={4} className="mb-4">
       <div
         className="contact-info"
         style={{
@@ -1247,7 +1247,7 @@ function Contact() {
           </span>
         </NavLink>
       </div>
-    </Col>
+    </Col> */}
   </Row>
         </Container>
 

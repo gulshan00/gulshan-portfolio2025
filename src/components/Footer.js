@@ -25,7 +25,7 @@ function Footer() {
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
-              <NavLink to="https://github.com/gulshan-kumar1810" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
+              <NavLink to="https://github.com/gulshan00" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </NavLink>
             </li>
