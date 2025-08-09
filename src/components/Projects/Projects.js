@@ -128,17 +128,17 @@ function Projects() {
               <ProjectCard
                 imgPath={solar}
                 isBlog={false}
-                title="Divya Solar Power"
-                description="A project to monitor and manage solar power generation systems. Users can view real-time data on solar panel efficiency, energy production, and environmental impact."
+                title="Teacher Management"
+                description="A project to monitor and manage teacher performance and student progress. Users can view real-time data on teacher effectiveness, student engagement, and academic outcomes."
                 ghLink=""
-                demoLink="https://pb-dppl.web.app/"
+                demoLink="https://teacher-management-2eq7.vercel.app/"
                 techStack={[
-                  "React.js",
+                  "Next.js",
                   "Tailwind CSS",
                   "JavaScript",
                   "Axios",
                   "Api",
-                  "Material UI",
+                 
                 ]}
               />
             </Col>
