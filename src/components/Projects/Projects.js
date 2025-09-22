@@ -148,7 +148,7 @@ function Projects() {
                 imgPath={traveller}
                 isBlog={false}
                 title="Traveller"
-                description="Your go-to destination for seamless trip planning and vacation exploration. Discover new adventures, manage itineraries effortlessly, and access valuable resources for an unforgettable travel experience."
+                description="Your go-to destination for seamless trip planning and vacation explorations. Discover new adventures, manage itineraries effortlessly, and access valuable resources for an unforgettable travel experience."
                 ghLink=""
                 demoLink="https://gulshan-travellers.vercel.app/"
                 techStack={[
