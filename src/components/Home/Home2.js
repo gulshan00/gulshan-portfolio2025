@@ -92,46 +92,50 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <NavLink
-                  to="https://github.com/yourusername"
+                <a
+                  href="https://github.com/gulshan00"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
-                </NavLink>
+                </a>
               </li>
+
               <li className="social-icons">
-                <NavLink
-                  to="https://wa.me/7903074152"
+                <a
+                  href="https://wa.me/7903074152"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiOutlineWhatsApp />
-                </NavLink>
+                </a>
               </li>
+
               <li className="social-icons">
-                <NavLink
-                  to="https://www.linkedin.com/in/gulshan-kumar-64244220a/"
+                <a
+                  href="https://www.linkedin.com/in/gulshan-kumar-64244220a/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
-                </NavLink>
+                </a>
               </li>
+
               <li className="social-icons">
-                <NavLink
-                  to="https://www.instagram.com/gulshan.sandilya_/?igshid=ZDdkNTZiNTM%3D"
+                <a
+                  href="https://www.instagram.com/gulshan.sandilya_/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </NavLink>
+                </a>
               </li>
             </ul>
+
           </Col>
         </Row>
       </Container>
